@@ -1,0 +1,68 @@
+
+  
+ h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Alfa Slab One', cursive;
+  } 
+   
+  p {
+    font-size: 2rem;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    
+  }
+
+  .insideP{
+    font-family: 'Amatic SC', cursive;
+    
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+  .completed-text {
+    text-decoration: line-through;
+  }
+  .todo-card {
+    /* width: calc(33.33% - 20px); */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .todo-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .todo-card h1 {
+    font-size: 1.5rem;
+  }
+  
+  .todo-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .completed-text {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .completed {
+    color: green;
+  }
+  
+  .incomplete {
+    color: red;
+  }
+  
+  .todo-card.completed {
+    background-color: #f7f7f7; /* Background color for completed todos */
+  }
+  
+  
+  
